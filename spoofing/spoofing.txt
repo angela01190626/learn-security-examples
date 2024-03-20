@@ -1,1 +1,7 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+When the user logs in, there is a cookie. Someone can copy the cookie and log in as a malicious user.
+But the secure version have httpOnly set to be true to prevent client from accessing the cookie, 
+and sameSite set to be true to only allow cookies to be sent in a first-party context.
+
+Spoofing violates availability.

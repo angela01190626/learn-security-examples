@@ -1,0 +1,7 @@
+User can submit a hyperlink as an input. After submission, a hyperlink is shown to the user. 
+The user can click on the link which leads to attacker's website. 
+
+The secure version replaces the input with a string. By doing so, we can avoid the user to be directed to another website. 
+
+
+Tampering violates Integrity. 
