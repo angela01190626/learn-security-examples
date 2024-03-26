@@ -1,2 +1,6 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+The insecure one exposes the user information. 
+The secure version has error handling to prevent unnecessary exposure of services.  
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+Add middleware to do initial check.

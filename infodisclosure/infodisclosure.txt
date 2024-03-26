@@ -5,3 +5,4 @@ Which CIA property does information disclosure violate?
 Information disclosure violates confidentiality.
 
 What additional security mechanisms can you incorporate?
+Encrypting the sensitive information

@@ -1,0 +1,4 @@
+The insecure one allows anyone to update the user's privileges. 
+However, the secure one checks whether the user has the privilege to update the other user's privilege and then 
+allows authorized user to do the action.
+

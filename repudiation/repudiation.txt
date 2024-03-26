@@ -1,2 +1,7 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+The insecure one allows anyone to see the messages that includes user and message details and cannot track down the user. 
+The secure one stores the messages sent by user to a server.log file which allows the system to track down the information.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+
