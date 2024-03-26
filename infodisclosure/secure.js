@@ -30,6 +30,7 @@ app.get('/userinfo', async (req, res) => {
   // Sanitize username input: Prevent NoSQL injection
   const sanitizedUsername = username.replace(/[^\w\s]/gi, ''); // Remove non-alphanumeric characters
 
+  console.log(sanitizedUsername)
   // Perform database query using sanitized username
   try {
     const user = await User.findOne({ username: sanitizedUsername }).exec();

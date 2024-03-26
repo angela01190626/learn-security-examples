@@ -23,6 +23,8 @@ app.post("/sensitive", (req, res) => {
   }
 })
 
+
+// We can copy the cookie and act as a malicious user
 app.get("/", (req, res) => {
   let name = "Guest"
 
